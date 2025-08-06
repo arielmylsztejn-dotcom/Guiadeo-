@@ -64,7 +64,8 @@ export default function Home() {
     },
   ];
 
-  const [active, setActive] = React.useState(null);
+  const [active, setActive] = useState<number | null>(null);
+
 
   return (
     <main className="min-h-screen bg-gray-100 p-10">
